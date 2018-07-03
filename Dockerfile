@@ -9,3 +9,5 @@ RUN apk add --update redis
 RUN apk add --update curl 
 
 RUN apk add bash
+
+CMD [ "redis-cli" ]
